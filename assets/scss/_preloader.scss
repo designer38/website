@@ -1,0 +1,64 @@
+
+/*///////////////start preloader///////////*/
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 9999!important;
+}
+
+.preloader-wrapper {
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    .loader-logo {
+        width: 90px;
+        @media (max-width: 768px) {
+            width: 80px;
+        }
+    }
+    .loader-text {
+        color: $colorMain;
+        font-size: 22px;
+        text-align: center;
+        padding: 0;
+        margin: 8px;
+        animation: infinite forwards 3s ease-in-out glow;
+    }
+    .loader-text span {
+        opacity: 1;
+        animation: loading 0.85s ease-in-out infinite alternate;
+    }
+    @keyframes loading {
+        to {
+            opacity: 0;
+        }
+    }
+    .loader-text span:nth-child(2) {
+        animation-delay: 0.22s;
+    }
+    .loader-text span:nth-child(3) {
+        animation-delay: 0.37s;
+    }
+    .loader-text span:nth-child(4) {
+        animation-delay: 0.42s;
+    }
+    .loader-text span:nth-child(5) {
+        animation-delay: 0.67s;
+    }
+    .loader-text span:nth-child(6) {
+        animation-delay: 0.82s;
+    }
+    .loader-text span:nth-child(7) {
+        animation-delay: 0.97s;
+    }
+} 
+/*///////////////end preloader///////////*/

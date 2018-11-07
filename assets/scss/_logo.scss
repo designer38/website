@@ -1,0 +1,58 @@
+// ////logo section/////
+.logo-section {
+    .title {
+        font-size: 36px;
+        color: #283593;
+        text-align: center;
+    }
+    .logos {
+        text-align: center;
+        -webkit-transform: skew(-10deg);
+        -moz-transform: skew(-10deg);
+        -ms-transform: skew(-10deg);
+        -o-transform: skew(-10deg);
+        transform: skew(-10deg);
+        background-color: #fff;
+        padding: 3rem 3rem 4rem;
+        border-radius: 10px;
+        @media( max-width: 1280px) {
+            width: 80% !important;
+            margin: 0 auto;
+        }
+        @media (max-width: 767px) {
+            transform: translateX(0);
+            padding: 2rem 1rem
+        }
+        @media (max-width: 500px) {
+            width: 100% !important;
+        }
+        li {
+            -webkit-transform: skew(10deg);
+            -moz-transform: skew(10deg);
+            -ms-transform: skew(10deg);
+            -o-transform: skew(10deg);
+            transform: skew(10deg);
+            display: inline-block;
+            margin-left: 15px;
+            margin: 0px 20px;
+            opacity: 0;
+            @media (max-width: 767px) {
+                transform: translateX(0);
+            }
+            img {
+                width: 120px;
+                @media (max-width: 767px) {
+                    transform: translateX(0);
+                }
+            }
+        }
+    }
+    .community-logos {
+        img {
+            width: 100px;
+            @media (max-width: 767px) {
+                width: 50px !important;
+            }
+        }
+    }
+}

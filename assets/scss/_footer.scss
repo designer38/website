@@ -1,0 +1,72 @@
+/*///////////////start footer///////////*/
+
+footer {
+    padding: 40px 0;
+    background-color: #082c4c;
+    word-spacing: 1px;
+    line-height: 22px;
+    .footitle {
+        color: #318dcd;
+        font-size: 20px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+    }
+    .text {
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .social-icon {
+        margin-bottom: 3rem;
+        i {
+            padding: 0 1rem;
+            font-size: 3rem;
+            cursor: pointer;
+        }
+    }
+    i {
+        color: #25b5e9;
+        font-size: 25px;
+    }
+    .bluey {
+        color: #25b5e9;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin-right: 5px;
+    }
+    .whitey {
+        color: white;
+    }
+    #ymail {
+        height: 50px;
+        width: 90%;
+        background-color: transparent;
+        color: white;
+        text-align: center;
+        margin: 8px 0;
+        border: 2px solid #25b5e9;
+        border-radius: 0px;
+    }
+    .subbutton {
+        background-color: #25b5e9;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        width: 90%;
+        height: 50px;
+    }
+}
+
+
+/*///////////////end footer///////////*/
+
+.copyright {
+    text-align: center;
+    background-color: #f7f7f7;
+    color: $colorMain;
+    padding: 35px 0 20px;
+}
